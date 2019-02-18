@@ -1,0 +1,50 @@
+[ N 2019-02-14 18:42:13.5501 9991/T1 age/Wat/WatchdogMain.cpp:1366 ]: Starting Passenger watchdog...
+[ N 2019-02-14 18:42:13.5660 9994/T1 age/Cor/CoreMain.cpp:1339 ]: Starting Passenger core...
+[ N 2019-02-14 18:42:13.5662 9994/T1 age/Cor/CoreMain.cpp:256 ]: Passenger core running in multi-application mode.
+[ N 2019-02-14 18:42:13.5752 9994/T1 age/Cor/CoreMain.cpp:1014 ]: Passenger core online, PID 9994
+App 10032 output: Invalid HTTP_HOST header: '0.0.0.0'. You may need to add '0.0.0.0' to ALLOWED_HOSTS.
+App 10032 output: [ pid=10032, time=2019-02-14 23:42:16,038 ]: Invalid HTTP_HOST header: '0.0.0.0'. You may need to add '0.0.0.0' to ALLOWED_HOSTS.
+App 10032 output: Bad Request: /
+App 10032 output: [ pid=10032, time=2019-02-14 23:42:16,068 ]: Bad Request: /
+[ N 2019-02-14 18:42:16.8635 9994/T5 age/Cor/SecurityUpdateChecker.h:519 ]: Security update check: no update found (next check in 24 hours)
+App 10032 output: Not Found: /static/admin/css/fonts.css
+App 10032 output: [ pid=10032, time=2019-02-14 23:43:21,239 ]: Not Found: /static/admin/css/fonts.css
+App 10032 output: Not Found: /static/admin/css/fonts.css
+App 10032 output: [ pid=10032, time=2019-02-14 23:43:23,550 ]: Not Found: /static/admin/css/fonts.css
+App 10032 output: Not Found: /static/admin/css/fonts.css
+App 10032 output: [ pid=10032, time=2019-02-14 23:44:03,805 ]: Not Found: /static/admin/css/fonts.css
+
+[ N 2019-02-14 18:46:29.1574 9994/T8 age/Cor/CoreMain.cpp:671 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ N 2019-02-14 18:46:29.1575 9994/T1 age/Cor/CoreMain.cpp:1245 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ N 2019-02-14 18:46:29.1575 9994/T1 age/Cor/CoreMain.cpp:1146 ]: Checking whether to disconnect long-running connections for process 10032, application /home/lab/Documentos/proyecto_python/miproyectodjango (development)
+[ N 2019-02-14 18:46:29.1577 9994/Ta Ser/Server.h:902 ]: [ServerThr.2] Freed 0 spare client objects
+[ N 2019-02-14 18:46:29.1577 9994/Ta Ser/Server.h:558 ]: [ServerThr.2] Shutdown finished
+[ N 2019-02-14 18:46:29.1587 9994/Tc Ser/Server.h:902 ]: [ServerThr.3] Freed 0 spare client objects
+[ N 2019-02-14 18:46:29.1588 9994/Tc Ser/Server.h:558 ]: [ServerThr.3] Shutdown finished
+[ N 2019-02-14 18:46:29.1588 9994/Te Ser/Server.h:902 ]: [ServerThr.4] Freed 0 spare client objects
+[ N 2019-02-14 18:46:29.1588 9994/Te Ser/Server.h:558 ]: [ServerThr.4] Shutdown finished
+[ N 2019-02-14 18:46:29.1696 9994/Tg Ser/Server.h:902 ]: [ApiServer] Freed 0 spare client objects
+[ N 2019-02-14 18:46:29.1696 9994/Tg Ser/Server.h:558 ]: [ApiServer] Shutdown finished
+[ N 2019-02-14 18:46:29.1718 9994/T8 Ser/Server.h:902 ]: [ServerThr.1] Freed 0 spare client objects
+[ N 2019-02-14 18:46:29.1718 9994/T8 Ser/Server.h:558 ]: [ServerThr.1] Shutdown finished
+[ N 2019-02-14 18:46:29.1721 9994/T1 age/Cor/CoreMain.cpp:1146 ]: Checking whether to disconnect long-running connections for process 10032, application /home/lab/Documentos/proyecto_python/miproyectodjango (development)
+[ N 2019-02-14 18:46:30.2143 9994/T1 age/Cor/CoreMain.cpp:1324 ]: Passenger core shutdown finished
+[ N 2019-02-14 18:46:46.9509 10387/T1 age/Wat/WatchdogMain.cpp:1366 ]: Starting Passenger watchdog...
+[ N 2019-02-14 18:46:46.9664 10390/T1 age/Cor/CoreMain.cpp:1339 ]: Starting Passenger core...
+[ N 2019-02-14 18:46:46.9666 10390/T1 age/Cor/CoreMain.cpp:256 ]: Passenger core running in multi-application mode.
+[ N 2019-02-14 18:46:46.9756 10390/T1 age/Cor/CoreMain.cpp:1014 ]: Passenger core online, PID 10390
+App 10428 output: Invalid HTTP_HOST header: '0.0.0.0'. You may need to add '0.0.0.0' to ALLOWED_HOSTS.
+App 10428 output: [ pid=10428, time=2019-02-14 23:46:49,361 ]: Invalid HTTP_HOST header: '0.0.0.0'. You may need to add '0.0.0.0' to ALLOWED_HOSTS.
+App 10428 output: Bad Request: /
+App 10428 output: [ pid=10428, time=2019-02-14 23:46:49,391 ]: Bad Request: /
+[ N 2019-02-14 18:46:50.1695 10390/T5 age/Cor/SecurityUpdateChecker.h:519 ]: Security update check: no update found (next check in 24 hours)
+App 10428 output: Not Found: /static/admin/css/fonts.css
+App 10428 output: [ pid=10428, time=2019-02-14 23:47:11,523 ]: Not Found: /static/admin/css/fonts.css
+App 10428 output: Not Found: /static/admin/css/fonts.css
+App 10428 output: [ pid=10428, time=2019-02-14 23:50:22,357 ]: Not Found: /static/admin/css/fonts.css
+App 10428 output: Not Found: /static/admin/css/fonts.css
+App 10428 output: [ pid=10428, time=2019-02-14 23:50:27,897 ]: Not Found: /static/admin/css/fonts.css
+App 10428 output: Not Found: /static/admin/css/fonts.css
+App 10428 output: [ pid=10428, time=2019-02-14 23:50:30,447 ]: Not Found: /static/admin/css/fonts.css
+App 10428 output: Not Found: /static/admin/css/fonts.css
+App 10428 output: [ pid=10428, time=2019-02-14 23:57:58,089 ]: Not Found: /static/admin/css/fonts.css

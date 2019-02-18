@@ -1,0 +1,32 @@
+[ N 2019-02-18 18:05:02.2192 13601/T1 age/Wat/WatchdogMain.cpp:1366 ]: Starting Passenger watchdog...
+[ N 2019-02-18 18:05:02.2360 13604/T1 age/Cor/CoreMain.cpp:1339 ]: Starting Passenger core...
+[ N 2019-02-18 18:05:02.2362 13604/T1 age/Cor/CoreMain.cpp:256 ]: Passenger core running in multi-application mode.
+[ N 2019-02-18 18:05:02.2449 13604/T1 age/Cor/CoreMain.cpp:1014 ]: Passenger core online, PID 13604
+App 13642 output: Traceback (most recent call last):
+App 13642 output:   File "/usr/share/passenger/helper-scripts/wsgi-loader.py", line 369, in <module>
+App 13642 output:     app_module = load_app()
+App 13642 output:   File "/usr/share/passenger/helper-scripts/wsgi-loader.py", line 76, in load_app
+App 13642 output:     return imp.load_source('passenger_wsgi', startup_file)
+App 13642 output:   File "/home/lab/Documentos/proyecto_python/miproyectodjango/passenger_wsgi.py", line 2, in <module>
+App 13642 output:     from django.core.wsgi import get_wsgi_application 
+App 13642 output: ImportError: No module named django.core.wsgi
+[ N 2019-02-18 18:05:05.6227 13604/T5 age/Cor/SecurityUpdateChecker.h:519 ]: Security update check: no update found (next check in 24 hours)
+[ E 2019-02-18 18:05:05.7241 13604/Tj age/Cor/App/Implementation.cpp:221 ]: Could not spawn process for application /home/lab/Documentos/proyecto_python/miproyectodjango: The application process exited prematurely.
+  Error ID: e411914b
+  Error details saved to: /tmp/passenger-error-GRpnQv.html
+
+[ E 2019-02-18 18:05:05.7290 13604/T9 age/Cor/Con/CheckoutSession.cpp:276 ]: [Client 1-1] Cannot checkout session because a spawning error occurred. The identifier of the error is e411914b. Please see earlier logs for details about the error.
+
+[ N 2019-02-18 18:05:18.7976 13604/T9 age/Cor/CoreMain.cpp:671 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ N 2019-02-18 18:05:18.7989 13604/T1 age/Cor/CoreMain.cpp:1245 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ N 2019-02-18 18:05:18.7992 13604/T9 Ser/Server.h:902 ]: [ServerThr.1] Freed 0 spare client objects
+[ N 2019-02-18 18:05:18.7993 13604/T9 Ser/Server.h:558 ]: [ServerThr.1] Shutdown finished
+[ N 2019-02-18 18:05:18.7993 13604/Te Ser/Server.h:902 ]: [ServerThr.4] Freed 0 spare client objects
+[ N 2019-02-18 18:05:18.7994 13604/Te Ser/Server.h:558 ]: [ServerThr.4] Shutdown finished
+[ N 2019-02-18 18:05:18.7995 13604/Td Ser/Server.h:902 ]: [ServerThr.3] Freed 0 spare client objects
+[ N 2019-02-18 18:05:18.7995 13604/Td Ser/Server.h:558 ]: [ServerThr.3] Shutdown finished
+[ N 2019-02-18 18:05:18.7998 13604/Tb Ser/Server.h:902 ]: [ServerThr.2] Freed 0 spare client objects
+[ N 2019-02-18 18:05:18.7999 13604/Tb Ser/Server.h:558 ]: [ServerThr.2] Shutdown finished
+[ N 2019-02-18 18:05:18.8003 13604/Th Ser/Server.h:902 ]: [ApiServer] Freed 0 spare client objects
+[ N 2019-02-18 18:05:18.8004 13604/Th Ser/Server.h:558 ]: [ApiServer] Shutdown finished
+[ N 2019-02-18 18:05:19.7765 13604/T1 age/Cor/CoreMain.cpp:1324 ]: Passenger core shutdown finished
